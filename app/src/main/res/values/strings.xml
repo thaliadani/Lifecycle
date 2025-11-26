@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Lifecycle</string>
     <string name="add_number">add number</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="incrementar_por">Incrementar por</string>
 </resources>

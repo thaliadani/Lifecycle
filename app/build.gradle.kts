@@ -43,6 +43,7 @@ android {
 }
 
 dependencies {
+    implementation(libs.androidx.navigation.fragment)
     val lifecycle_version = "2.6.1"
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:${lifecycle_version}")
     implementation(libs.androidx.core.ktx)
