@@ -1,4 +1,4 @@
-package com.example.lifecycle
+package com.example.lifecycle.presentation
 
 import android.app.Activity
 import android.os.Bundle

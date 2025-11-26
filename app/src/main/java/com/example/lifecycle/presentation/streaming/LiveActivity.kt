@@ -1,4 +1,4 @@
-package com.example.lifecycle.streaming
+package com.example.lifecycle.presentation.streaming
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

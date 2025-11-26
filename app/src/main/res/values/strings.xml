@@ -6,4 +6,5 @@
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>
     <string name="incrementar_por">Incrementar por</string>
+    <string name="incrementar">Incrementar</string>
 </resources>

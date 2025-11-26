@@ -1,4 +1,4 @@
-package com.example.lifecycle.viewmodel
+package com.example.lifecycle.presentation.counter
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -9,11 +9,14 @@ import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
 import com.example.lifecycle.R
 import com.example.lifecycle.databinding.FragmentFirstBinding
+import com.example.lifecycle.presentation.ViewModelFactory
 import kotlin.getValue
 
 class FirstFragment : Fragment() {
 
-    private val viewModel by activityViewModels<MainViewModel>()
+    private val viewModel by activityViewModels<MainViewModel>{
+        ViewModelFactory()
+    }
     private var _binding: FragmentFirstBinding? = null
     private val binding get() = _binding!!
 
